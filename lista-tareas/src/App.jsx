@@ -1,6 +1,6 @@
-import './App.css';
+import './App.css'
 import LogoCocaCola from './imagenes/logo.png'
-import ListaDeTareas from './componentes/ListaDeTareas';
+import ListaDeTareas from './componentes/ListaDeTareas'
 
 
 function App() {
@@ -11,11 +11,11 @@ function App() {
         src={LogoCocaCola} 
         className='freecodecamp-logo' 
         />  
-      </div> 
+      </div>
       <div className='tareas-lista-principal'>
         <h1>Mis Tareas</h1>
         <ListaDeTareas />
-      </div> 
+      </div>
     </div>
   );
 }
