@@ -14,5 +14,8 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/stardard/eslintrc.json"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.28.0"
   }
 }
